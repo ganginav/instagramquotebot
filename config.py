@@ -1,0 +1,3 @@
+username = "INSTAGRAM USERNAME HERE"
+password = "PASSWORD INSTAGRAM HERE"
+api_key = "API NINJA API KEY HERE"
