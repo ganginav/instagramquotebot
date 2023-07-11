@@ -4,10 +4,9 @@ import json
 import config
 import time
 import textwrap
-
-posts = 3
-
 from instagrapi import Client
+
+
 cl = Client()
 cl.login(config.username, config.password)
 
@@ -42,11 +41,11 @@ while True:
 
     media = cl.photo_upload(
         path = 'result.jpg',
-    caption = "#"+str(posts),
+    caption = "#viral",
         extra_data= {
             "disable_comments": False,
             "like_and_view_counts_disabled": False
         }
     )
+
     time.sleep(120)
-    posts += 1
